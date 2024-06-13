@@ -35,7 +35,7 @@ const Footer = () => {
         <div className="socialMedia-Container">
           <div className="socialMedia-Icon">
             <FaInstagram onClick={openInstagram} id="instagram"/>
-            <MdEmail onClick={sendMail} id="mail" />
+            <MdEmail onClick={sendMail} className="mail" />
           </div>
           <p className="socialMedia-Title">Síguenos en redes sociales</p>
         </div> 
